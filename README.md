@@ -1,16 +1,23 @@
 # Tuan Anh’s Task Manager (Việc học của tôi)
 
-- **Sinh viên thực hiện**: **Tuấn Anh**
-- **Supabase Project URL**: `https://zoyxnbdvkjfjztktuxif.supabase.co`
-- **Publishable Key**: `sb_publishable_PGvgMRdRAzW3bO43bF2sbg_M7HFy10n`
+Ứng dụng quản lý công việc học tập cá nhân bảo vệ bằng Supabase Authentication và Row Level Security (RLS).
 
-## Cài đặt và chạy
+- **Sinh viên thực hiện**: **Tuấn Anh**
+
+## Cấu hình môi trường (.env)
+Tạo file `.env` hoặc cấu hình trong môi trường hosting:
+```env
+NEXT_PUBLIC_SUPABASE_URL=https://your-project.supabase.co
+NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY=your-supabase-publishable-key
+```
+
+## Cài đặt và khởi chạy
 ```bash
 npm install
 npm run dev
 ```
-Mở tại: `http://localhost:3000`
-- `/login`: Đăng nhập với tài khoản thử nghiệm A (Tuấn Anh) hoặc B (Minh Khoa)
-- `/tasks`: Quản lý công việc cá nhân có RLS
-- Tab **Kiểm thử T01–T12**: Chạy kiểm tra tự động 18 kịch bản tích hợp
-- Tab **Hồ sơ nộp bài & Câu hỏi**: Xem schema SQL, mã nguồn API và 9 câu trả lời bảo vệ
+
+Truy cập tại: `http://localhost:3000`
+- `/login`: Đăng nhập với tài khoản thử nghiệm
+- `/tasks`: Quản lý công việc cá nhân có xác thực phân quyền
+- `/defense`: Ôn tập 9 câu hỏi bảo vệ bài thực hành
