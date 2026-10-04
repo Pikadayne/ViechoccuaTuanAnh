@@ -1,0 +1,8 @@
+{
+  "name": "Tuan Anh’s Task Manager",
+  "description": "Efficiently organize and complete all your daily tasks with this simple, personalized management tool.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

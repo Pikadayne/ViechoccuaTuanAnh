@@ -1,11 +1,16 @@
-<div align="center">
+# Tuan Anh’s Task Manager (Việc học của tôi)
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+- **Sinh viên thực hiện**: **Tuấn Anh**
+- **Supabase Project URL**: `https://zoyxnbdvkjfjztktuxif.supabase.co`
+- **Publishable Key**: `sb_publishable_PGvgMRdRAzW3bO43bF2sbg_M7HFy10n`
 
-  <h1>Built with AI Studio</h2>
-
-  <p>The fastest path from prompt to production with Gemini.</p>
-
-  <a href="https://aistudio.google.com/apps">Start building</a>
-
-</div>
+## Cài đặt và chạy
+```bash
+npm install
+npm run dev
+```
+Mở tại: `http://localhost:3000`
+- `/login`: Đăng nhập với tài khoản thử nghiệm A (Tuấn Anh) hoặc B (Minh Khoa)
+- `/tasks`: Quản lý công việc cá nhân có RLS
+- Tab **Kiểm thử T01–T12**: Chạy kiểm tra tự động 18 kịch bản tích hợp
+- Tab **Hồ sơ nộp bài & Câu hỏi**: Xem schema SQL, mã nguồn API và 9 câu trả lời bảo vệ
