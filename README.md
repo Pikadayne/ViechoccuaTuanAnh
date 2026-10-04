@@ -21,3 +21,7 @@ Truy cập tại: `http://localhost:3000`
 - `/login`: Đăng nhập với tài khoản thử nghiệm
 - `/tasks`: Quản lý công việc cá nhân có xác thực phân quyền
 - `/defense`: Ôn tập 9 câu hỏi bảo vệ bài thực hành
+
+Được deploy tại demo tại url: https://viechoccuatuananh.ai.studio/
+FE, BE: Cloud Run
+DB: Supabase
